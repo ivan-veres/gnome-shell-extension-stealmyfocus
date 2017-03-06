@@ -1,3 +1,5 @@
+This is a fork repository of [kagesenshi/gnome-shell-extension-stealmyfocus](https://github.com/kagesenshi/gnome-shell-extension-stealmyfocus)
+
 Steal My Focus - Gnome Shell Extension
 ======================================
 
