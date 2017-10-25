@@ -11,6 +11,7 @@ function StealMyFocus() {
 StealMyFocus.prototype = {
     _init : function() {
         this._tracker = Shell.WindowTracker.get_default();
+        global.display.disconnect(Main.windowAttentionHandler._windowDemandsAttentionId);
         this._handlerid = global.display.connect('window-demands-attention', Lang.bind(this, this._onWindowDemandsAttention));
     },
 
