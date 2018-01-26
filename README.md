@@ -9,3 +9,7 @@ Let windows steal focus. Removes the annoying 'Window is ready'
 notification and focus window immediately.
 
 You can also specify a blacklist for annoying applications (eg. Skype).
+
+## Installation
+
+To install this extension, simply download it to any temporary directory and run `make`.
