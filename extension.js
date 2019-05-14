@@ -5,7 +5,7 @@ const Lang = imports.lang;
 
 function StealMyFocus() {
     this._init();
-    this.blacklist = ["Skype"];
+    this.blacklist = ["Skype","Viber"];
 }
 
 StealMyFocus.prototype = {
